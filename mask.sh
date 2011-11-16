@@ -1,4 +1,4 @@
 #!/bin/sh
 
-# Call your program here instead of cat.
-cat
+java -jar cardfilter/target/cardfilter-0.0.1-SNAPSHOT.jar $@
+
